@@ -188,7 +188,8 @@ Example of BP logic moving a character (AI) to a specific target and changing it
   <img src="Images/Finale.PNG">
 </p>
 
-#Contact
+# Contact
+
 For more information about this or VR related projects please contact:
 Name: 	Diego Kaleb Valenzuela Carrillo
 Email: 	d.kal3b@gmail.com
