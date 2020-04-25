@@ -119,6 +119,32 @@ Once the player opens the door, this one opens and the cliet reaches the store f
   <img src="Images/Open_Door.PNG">
 </p>
 
+- Third Sequence: Dialogue
+The client is already inside and the player is focused on him (Malcolm, the client). A sequence of dialogue is now on place.
+	- The name of the sequence belongs in a different Enum called "Dialogue State"
+Example of BP dialogue interaction:
+<p align="center">
+  <img src="Images/Dialogue_Interaction.PNG">
+</p>
+
+- Forth Sequence: Grab Camera
+	- Camera appears and player places it inside the first hologram for practice purposes.
+	- When the player puts the camera inside the hologram another will appear.
+	- Once the camera is in the second hologram we change the mesh of the camera to the one that can disassemble.
+Example of BP logic checking if any mesh is inside an hologram actor:
+<p align="center">
+  <img src="Images/Camera_In_Hologram.PNG">
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
