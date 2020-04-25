@@ -22,7 +22,7 @@ The following content is needed for the project to work properly and be scalable
     - For more information on how to implement Oculus Spatial Audio please visit: [Oculus Spatial Audio](https://developer.oculus.com/documentation/unreal/audio-osp-ue/)
 ### **Project Organization**
 <p align="center">
-  <img width="600" height="700" src="Images/Level_Organization.PNG">
+  <img src="Images/Level_Organization.PNG">
 </p> 
 - Camera Interaction: As a **proof of concept**, it was decided to interact with a camera in order to fix it by disasseble and assemble it again (replacing parts of it). Every object used for this interaction is properly organized within this folder, including: pickup objects, holograms, meshes and actors.
 - Client: The **interaction with a client** is crutial to understand how the company runs. Includes all character meshes, animations and targets.
@@ -35,7 +35,7 @@ The following content is needed for the project to work properly and be scalable
 ## Actors
 ### Holograms
 <p align="center">
-  <img width="600" height="700" src="Images/Holo.PNG">
+  <img src="Images/Holo.PNG">
 </p>
 - Contains a mesh component and applies a semi-transparent material to it. 
 - Each hologram contains one or more slots to recognize which object can be attached to it. 
@@ -44,26 +44,26 @@ The following content is needed for the project to work properly and be scalable
 - Radius: Collider that detects all overlapped actors, if one has the same slot name, the hologram will take it as a child.
 ### Pickup Objects
 <p align="center">
-  <img width="600" height="700" src="Images/Pickup.PNG">
+  <img src="Images/Pickup.PNG">
 </p>
 - Contains one or several meshes but just one can be attached to holograms, other meshes must be their children.
 - Slot: One single name to be identified, if the slot matches with an hologram, then the actor can be attached to the hologram.
 - Simulate physics: If checked, the mesh and all its childs will simulate physics including gravity.
 ### Screwable Holograms
 <p align="center">
-  <img width="600" height="700" src="Images/Screwable.PNG">
+  <img src="Images/Screwable.PNG">
 </p>
 Includes the same components as a normal hologram adding:
 - Screw Distance: Height of the screw that is goind to be placed in the hologram.
 - Initial Screw Distance: indicates if a screw is already correctly placed and if yes how deep is it.
 ## Screwable Actors
 <p align="center">
-  <img width="600" height="700" src="Images/Screwable_Actor.PNG">
+  <img src="Images/Screwable_Actor.PNG">
 </p>
 - At interaction the mesh of the Screw -as a component- will rotate in the proper direction depending if it's being assembled or not.
 ## Screwdriver BP
 <p align="center">
-  <img width="600" height="700" src="Images/Screwdriver.PNG">
+  <img src="Images/Screwdriver.PNG">
 </p>
 - Can interact with different screws: Pressing A/X on the Oculus Touch Controllers will change the type of head in the screwdriver.
 - Interaction: By pressing any Motion Controller Triggers and if the head of the screwdriver is close to any screw, the second one will rotate and moving on Z until is at the bottom of the hologram or outside.
