@@ -102,6 +102,24 @@ Includes all the sequences in game managed by a single Enum called "Action List"
 
 	- Connected directly with a custom event that redirects every sequence to different functions in a Switch Statement.
 	- As a developer tool there is an option to connect the Event Begin Play directly to the "Grab Camera" sequence to skip the client interaction and test the assembly experience. 
+- Sequence 1: Welcome
+Prints the welcome message on the widgets and tells the user to press B to open the store.
+<p align="center">
+  <img src="Images/Welcome.PNG">
+</p>
+
+- Sequence 2: Open Door
+The event waits for the user to press B, if the player doesn't respond within 30 seconds a new message will appear on the widget explaining how to open the door.
+<p align="center">
+  <img src="Images/Wait_To_Open.PNG">
+</p>
+
+Once the player opens the door, this one opens and the cliet reaches the store following a target.
+<p align="center">
+  <img src="Images/Open_Door.PNG">
+</p>
+
+
 
 
 
