@@ -43,6 +43,7 @@ The following content is needed for the project to work properly and be scalable
 - Initial: If the hologram starts with an actor attached to it and in same World Position, it should be explicit on Inital.
 - Radius: Collider that detects all overlapped actors, if one has the same slot name, the hologram will take it as a child.
 ### Pickup Objects
+![Hola](Images/Pickup.PNG "Pickup")
 <p align="center">
   <img width="600" height="700" src="Images/Pickup.PNG">
 </p>
