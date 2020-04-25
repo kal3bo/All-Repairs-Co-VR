@@ -25,7 +25,7 @@ The following content is needed for the project to work properly and be scalable
 <p align="center">
   <img src="Images/Level_Organization.PNG">
 </p> 
-- Camera Interaction: As a **proof of concept**, it was decided to interact with a camera in order to fix it by disasseble and assemble it again (replacing parts of it). Every object used for this interaction is properly organized within this folder, including: pickup objects, holograms, meshes and actors.
+- Camera Interaction: As a **proof of concept** , it was decided to interact with a camera in order to fix it by disasseble and assemble it again (replacing parts of it). Every object used for this interaction is properly organized within this folder, including: pickup objects, holograms, meshes and actors.
 - Client: The **interaction with a client** is crutial to understand how the company runs. Includes all character meshes, animations and targets.
 - Environment: Includes exterior map, natural lights, post-processing volumes and skybox.
 - Exterior: Static meshes on the exterior of the store to create a more realistic environment.
