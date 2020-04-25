@@ -153,11 +153,46 @@ Example of BP logic setting new sequence state and hidding objects in-game:
   <img src="Images/Hide.PNG">
 </p>
 
+- Seventh Sequence: Changing Batteries
+	- The user has to take out the two rusty batteries, search for new ones and replace them.
+	- Once two NEW batteries are placed on their place, change state.
+<p align="center">
+  <img src="Images/Seventh.PNG">
+</p>
 
+- Eighth Sequence: Assemble
+	- The player has to assemble the camera again.
+	- Every hologram that is needed appears again.
+	- Checks if every piece is in place.
 
+Logic of finding out if the camera is assembled again:
+<p align="center">
+  <img src="Images/All_Screws_On_Place.PNG">
+</p>
 
+- Ninth Sequence: Assembled
+	- The player has finished to assemble the camera and has to deliver it to the client again.
+	- Clear scene from object that will not be needed anymore.
+	- Once the player returns the camera go to final sequence
 
+Example of BP logic finding all the actors with a specific tag and hidding them:
+<p align="center">
+  <img src="Images/Ninth.PNG">
+</p>
 
+- Final Sequence: Finale
+	- Client animation for picking up the camera, being theankful and leaving the store.
+
+Example of BP logic moving a character (AI) to a specific target and changing its animation on succed:
+<p align="center">
+  <img src="Images/Finale.PNG">
+</p>
+
+#Contact
+For more information about this or VR related projects please contact:
+Name: 	Diego Kaleb Valenzuela Carrillo
+Email: 	d.kal3b@gmail.com
+Phone: 	+1 (778) 316-2083
 
 
 
