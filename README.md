@@ -67,14 +67,14 @@ Includes the same components as a normal hologram adding:
 - Screw Distance: Height of the screw that is goind to be placed in the hologram.
 - Initial Screw Distance: indicates if a screw is already correctly placed and if yes how deep is it.
 
-## Screwable Actors
+### Screwable Actors
 <p align="center">
   <img src="Images/Screwable_Actor.PNG">
 </p>
 
 - At interaction the mesh of the Screw -as a component- will rotate in the proper direction depending if it's being assembled or not.
 
-## Screwdriver BP
+### Screwdriver BP
 <p align="center">
   <img src="Images/Screwdriver.PNG">
 </p>
@@ -82,4 +82,25 @@ Includes the same components as a normal hologram adding:
 - Can interact with different screws: Pressing A/X on the Oculus Touch Controllers will change the type of head in the screwdriver.
 - Interaction: By pressing any Motion Controller Triggers and if the head of the screwdriver is close to any screw, the second one will rotate and moving on Z until is at the bottom of the hologram or outside.
 - Ligth interaction: While interacting, a light will appear pointing towards the head of the screwdriver direction.
+
+## Sequence & Blueprints
+
+### Instructions Widget
+<p align="center">
+  <img src="Images/Widget_BP.PNG">
+</p>
+The widget has a single instance of text that changes when is requested. 
+As shown in the previous image, once the text is set the BP prints character at the time to simulate a typewriter machine effect.
+
+### Level Blueprint
+Includes all the sequences in game managed by a single Enum called "Action List".
+
+- Event Begin Play
+<p align="center">
+  <img src="Images/Begin_Play .PNG">
+</p>
+	- Connected directly with a custom event that redirects every sequence to different functions in a Switch Statement.
+	- As a developer tool there is an option to connect the Event Begin Play directly to the "Grab Camera" sequence to skip the client interaction and test the assembly experience. 
+
+
 
