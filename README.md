@@ -19,7 +19,7 @@ The following content is needed for the project to work properly and be scalable
 - Virtual Reality BP: VR Blueprints used in the user interaction.
 - VR Assembling: Blueprints for assemble interaction.
 - Widgets: Canvas and UX.
-- Oculus Audios Source Settings: Settings for spatial audio (plugin needed)
+- Oculus Audio Source Settings: Settings for spatial audio (plugin needed)
     - For more information on how to implement Oculus Spatial Audio please visit: [Oculus Spatial Audio](https://developer.oculus.com/documentation/unreal/audio-osp-ue/)
 
 ### **Project Organization**
@@ -109,17 +109,19 @@ Prints the welcome message on the widgets and tells the user to press B to open 
 </p>
 
 - Sequence 2: Open Door
+
 The event waits for the user to press B, if the player doesn't respond within 30 seconds a new message will appear on the widget explaining how to open the door.
 <p align="center">
   <img src="Images/Wait_To_Open.PNG">
 </p>
 
-Once the player opens the door, this one opens and the cliet reaches the store following a target.
+Once the player opens the door, this one opens and the client reaches the store following a target.
 <p align="center">
   <img src="Images/Open_Door.PNG">
 </p>
 
 - Third Sequence: Dialogue
+
 The client is already inside and the player is focused on him (Malcolm, the client). A sequence of dialogue is now on place.
 	- The name of the sequence belongs in a different Enum called "Dialogue State"
 Example of BP dialogue interaction:
@@ -131,6 +133,7 @@ Example of BP dialogue interaction:
 	- Camera appears and player places it inside the first hologram for practice purposes.
 	- When the player puts the camera inside the hologram another will appear.
 	- Once the camera is in the second hologram we change the mesh of the camera to the one that can disassemble.
+
 Example of BP logic checking if any mesh is inside an hologram actor:
 <p align="center">
   <img src="Images/Camera_In_Hologram.PNG">
