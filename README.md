@@ -103,6 +103,7 @@ Includes all the sequences in game managed by a single Enum called "Action List"
 	- Connected directly with a custom event that redirects every sequence to different functions in a Switch Statement.
 	- As a developer tool there is an option to connect the Event Begin Play directly to the "Grab Camera" sequence to skip the client interaction and test the assembly experience. 
 - Sequence 1: Welcome
+
 Prints the welcome message on the widgets and tells the user to press B to open the store.
 <p align="center">
   <img src="Images/Welcome.PNG">
@@ -137,6 +138,19 @@ Example of BP dialogue interaction:
 Example of BP logic checking if any mesh is inside an hologram actor:
 <p align="center">
   <img src="Images/Camera_In_Hologram.PNG">
+</p>
+
+- Fifth Sequence: User Can Disassemble
+	- User has to find the screwdriver to start unscrewing the camera.
+	- Instrucions are provided to the player.
+	
+- Sixth Sequence: Disassemble
+	- Player disasseble the camera.
+	- Once the lid of the camera is off and placed in the new hologram, the previous holograms are hidden
+
+Example of BP logic setting new sequence state and hidding objects in-game:
+<p align="center">
+  <img src="Images/Hide.PNG">
 </p>
 
 
