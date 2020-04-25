@@ -3,7 +3,7 @@
 ## Documentation
 ### **Content**
 <p align="center">
-  <img width="1000" height="500" src="Images/Content.PNG">
+  <img src="Images/Content.PNG">
 </p>
 The following content is needed for the project to work properly and be scalable:
 - 3D Models: All the meshes, textures and materials separated by object.
