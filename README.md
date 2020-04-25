@@ -97,8 +97,9 @@ Includes all the sequences in game managed by a single Enum called "Action List"
 
 - Event Begin Play
 <p align="center">
-  <img src="Images/Begin_Play .PNG">
+  <img src="Images/Begin_Play.PNG">
 </p>
+
 	- Connected directly with a custom event that redirects every sequence to different functions in a Switch Statement.
 	- As a developer tool there is an option to connect the Event Begin Play directly to the "Grab Camera" sequence to skip the client interaction and test the assembly experience. 
 
