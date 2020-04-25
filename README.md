@@ -33,7 +33,9 @@ The following content is needed for the project to work properly and be scalable
 - VR Components: Pawn and Nav Mesh.
 - Widgets: Interactable UI.
 ---
-## Actors
+
+## Actors.
+
 ### Holograms
 <p align="center">
   <img src="Images/Holo.PNG">
@@ -43,6 +45,7 @@ The following content is needed for the project to work properly and be scalable
 - Blockers: whenever an actor is attached to the hologram it can be grabbable again only if the hologram itself doesn't have any blocker active. Blockers can be other holograms or screwable holograms. 
 - Initial: If the hologram starts with an actor attached to it and in same World Position, it should be explicit on Inital.
 - Radius: Collider that detects all overlapped actors, if one has the same slot name, the hologram will take it as a child.
+
 ### Pickup Objects
 <p align="center">
   <img src="Images/Pickup.PNG">
@@ -50,6 +53,7 @@ The following content is needed for the project to work properly and be scalable
 - Contains one or several meshes but just one can be attached to holograms, other meshes must be their children.
 - Slot: One single name to be identified, if the slot matches with an hologram, then the actor can be attached to the hologram.
 - Simulate physics: If checked, the mesh and all its childs will simulate physics including gravity.
+
 ### Screwable Holograms
 <p align="center">
   <img src="Images/Screwable.PNG">
@@ -57,11 +61,13 @@ The following content is needed for the project to work properly and be scalable
 Includes the same components as a normal hologram adding:
 - Screw Distance: Height of the screw that is goind to be placed in the hologram.
 - Initial Screw Distance: indicates if a screw is already correctly placed and if yes how deep is it.
+
 ## Screwable Actors
 <p align="center">
   <img src="Images/Screwable_Actor.PNG">
 </p>
 - At interaction the mesh of the Screw -as a component- will rotate in the proper direction depending if it's being assembled or not.
+
 ## Screwdriver BP
 <p align="center">
   <img src="Images/Screwdriver.PNG">
