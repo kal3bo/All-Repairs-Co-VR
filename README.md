@@ -3,7 +3,7 @@
 ## Documentation
 ### **Content**
 <p align="center">
-  <img width="600" height="700" src="Images/Content.PNG">
+  <img width="1000" height="500" src="Images/Content.PNG">
 </p>
 The following content is needed for the project to work properly and be scalable:
 - 3D Models: All the meshes, textures and materials separated by object.
@@ -43,7 +43,6 @@ The following content is needed for the project to work properly and be scalable
 - Initial: If the hologram starts with an actor attached to it and in same World Position, it should be explicit on Inital.
 - Radius: Collider that detects all overlapped actors, if one has the same slot name, the hologram will take it as a child.
 ### Pickup Objects
-![Hola](Images/Pickup.PNG "Pickup")
 <p align="center">
   <img width="600" height="700" src="Images/Pickup.PNG">
 </p>
