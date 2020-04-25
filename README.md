@@ -191,8 +191,11 @@ Example of BP logic moving a character (AI) to a specific target and changing it
 # Contact
 
 For more information about this or VR related projects please contact:
+
 Name: 	Diego Kaleb Valenzuela Carrillo
+
 Email: 	d.kal3b@gmail.com
+
 Phone: 	+1 (778) 316-2083
 
 
