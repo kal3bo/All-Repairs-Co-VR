@@ -20,6 +20,7 @@ The following content is needed for the project to work properly and be scalable
 - Widgets: Canvas and UX.
 - Oculus Audios Source Settings: Settings for spatial audio (plugin needed)
     - For more information on how to implement Oculus Spatial Audio please visit: [Oculus Spatial Audio](https://developer.oculus.com/documentation/unreal/audio-osp-ue/)
+
 ### **Project Organization**
 <p align="center">
   <img src="Images/Level_Organization.PNG">
