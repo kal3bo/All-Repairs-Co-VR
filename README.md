@@ -34,7 +34,7 @@ The following content is needed for the project to work properly and be scalable
 - Widgets: Interactable UI.
 ---
 
-## Actors.
+## Actors
 
 ### Holograms
 <p align="center">
